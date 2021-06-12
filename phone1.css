@@ -1,0 +1,86 @@
+/* navbar */
+
+.nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.search{
+    
+    margin-left: 21px;
+}  
+    
+/* home */
+#container{
+    height: 600px;
+    width: 105%;
+    display: flex;
+    /* grid-column-start: span; */
+ 
+    
+}
+.box{
+    animation-name: sharad1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      position: relative;
+      float: inherit;
+      margin-top: 23px;
+}
+
+@keyframes sharad1 {
+    from{
+      height: 290px;
+    width: 200px;
+    }
+    to{
+      height: 300px;
+        width: 415px;
+    }
+}
+.box1{
+    margin-top: 350px;
+}
+
+/* about */
+#about{
+    height: 750px;
+    width: 105%;
+    display: flex;
+    flex-flow:column;
+    flex-wrap: wrap-reverse;
+   
+    
+}
+.box2{
+    /* position: relativ */
+    margin-top: 400px;
+    margin-right: 123px;
+    
+}
+.abouth{
+    position: absolute;
+}
+.gif{
+    position: absolute;
+    margin-top: 80px;
+}
+
+
+
+/* skill */
+#skills{
+    width: 105%;
+    height: 100%;
+}
+
+/* contact */
+
+.box4{
+    width: 105%;
+    height: 150px;
+}
+
+/* foot */
+.foot{
+    width: 105%;
+}

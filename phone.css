@@ -1,0 +1,111 @@
+/* navbar */
+.nav{
+    width: 465px;
+}
+.nav ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav ul li a{
+    margin-left: 24px;
+}
+.search{
+    margin-left: 24px;
+}
+
+  
+
+/* home */
+#container{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+    max-width: 1400px;
+    min-width: 14px;
+    width: 415px;
+    
+}
+.box{
+    margin-top: 14px;
+    margin-left: 9px;
+    float: right;
+    position: relative;
+      animation-name: sharad1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      
+}
+@keyframes sharad1 {
+    from{
+      height: 229px;
+    width: 220px;
+    }
+    to{
+      height: 300px;
+        width: 320px;
+    }
+}
+
+.box1{
+ margin-top: 373px;
+ margin-left: 19px;
+ margin-right: 4px;
+}
+
+
+/* about */
+#about{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    height: 700px;
+    width: 415px;
+}
+.gif img{
+    margin-left:-79px;
+    margin-top: -300px;
+    margin-bottom: 63px;
+}
+.box2{
+    margin-top: 244px;
+    margin-left: 5px;
+    width: 350px;
+}
+
+
+/* skill */
+#skills{
+height: 1500px;
+width: 415px;
+}
+.imgg{
+    display: flex;
+    flex-direction: column;
+    box-flex: column;
+    margin-left: 50px;
+}
+.git{
+    margin-left: 50px;
+}
+
+/* contact */
+.box4{
+    width: 415px;
+}
+.wt{
+    margin: 23px;
+    margin-top: 6px;
+    margin-left: 47px;
+}
+
+
+
+
+
+
+/* footer */
+.foot{
+    width: 415px;
+}
